@@ -2,13 +2,13 @@ package sorting;
 import java.io.*;
 import java.util.*;
 
-//time out
+//time out 2... ha..tlq..kf
 public class p1181{
-	public static String[] removeRE(String[] arrary, int index) {
+	/*public static String[] removeRE(String[] arrary, int index) {
 		List<String> tempSB = new ArrayList<String>(Arrays.asList(arrary));
 		tempSB.remove(index);
 		return tempSB.toArray(new String[0]);
-	}
+	}*/
 	
 	public static void main(String[] args) throws IOException  {
 		Scanner sc = new Scanner(System.in);
@@ -23,15 +23,16 @@ public class p1181{
 			O[i] = sb;
 		}
 		
-		for(int i=0; i<N; i++){
+		// 인덱스를 삭제할 필요 X
+		/*for(int i=0; i<N; i++){
 			for(int j=i+1; j<N; j++) {
 				if(O[i].equals(O[j])) {
 					O = removeRE(O, j); //겹치는 인덱스 삭제
 					N = N-1; // 배열 크기 줄이기!
 				}
 			}
+		}*/
 		
-		}
 		int len = O.length;
 		
 		for(int i=0; i<len; i++) {
@@ -56,7 +57,18 @@ public class p1181{
 			}
 		}
 		for(int i=0; i<len; i++){
-			System.out.println(O[i]);
+			if(i==0) {
+				System.out.println(O[i]);
+			}
+			else {
+				int compared = O[i].compareTo(O[i-1]);
+				if(compared == 0) {
+					i++;
+					System.out.println(O[i]);
+				}
+				else
+					System.out.println(O[i]);
+			}
 		}
 	}
 }
