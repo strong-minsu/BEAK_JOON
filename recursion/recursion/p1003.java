@@ -1,7 +1,9 @@
-package arithmetic_operations;
+package recursion;
+
 import java.util.*;
 import java.io.*;
-public class fibonacci_fun {
+
+public class p1003 {
 	static int count_0 ;
 	static int count_1;
 	static int count_0_add_1;

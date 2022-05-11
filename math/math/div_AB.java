@@ -1,4 +1,4 @@
-package arithmetic_operations;
+package math;
 import java.util.Scanner;
 public class div_AB {
 	public static void main(String[] args) {

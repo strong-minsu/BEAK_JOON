@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="Sorting"/>
 	<classpathentry kind="src" path="print_star"/>
 	<classpathentry kind="src" path="simulation"/>
+	<classpathentry kind="src" path="recursion"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,4 +1,4 @@
-package arithmetic_operations;
+package math;
 import java.util.*;
 public class p18108 {
 	public static void main(String[] args) {
