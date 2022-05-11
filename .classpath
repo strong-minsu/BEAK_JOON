@@ -8,7 +8,6 @@
 	<classpathentry kind="src" path="math"/>
 	<classpathentry kind="src" path="Sorting"/>
 	<classpathentry kind="src" path="print_star"/>
-	<classpathentry kind="src" path="light_bulb"/>
 	<classpathentry kind="src" path="simulation"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
