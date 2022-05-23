@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="Recursion"/>
 	<classpathentry kind="src" path="Binary Search"/>
 	<classpathentry kind="src" path="Prefix Sum"/>
+	<classpathentry kind="src" path="Bruteforcing"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

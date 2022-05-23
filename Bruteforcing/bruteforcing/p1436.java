@@ -1,4 +1,4 @@
-package simulation;
+package bruteforcing;
 import java.util.*;
 
 public class p1436 {

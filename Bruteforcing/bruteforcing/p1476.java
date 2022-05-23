@@ -1,4 +1,4 @@
-package math;
+package bruteforcing;
 import java.util.*;
 
 public class p1476 {
