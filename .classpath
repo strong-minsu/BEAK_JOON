@@ -13,5 +13,7 @@
 	<classpathentry kind="src" path="Prefix Sum"/>
 	<classpathentry kind="src" path="Bruteforcing"/>
 	<classpathentry kind="src" path="Graph"/>
+	<classpathentry kind="src" path="Dynamic Programming"/>
+	<classpathentry kind="src" path="Greedy"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
