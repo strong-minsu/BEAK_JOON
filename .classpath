@@ -15,5 +15,6 @@
 	<classpathentry kind="src" path="Graph"/>
 	<classpathentry kind="src" path="Dynamic Programming"/>
 	<classpathentry kind="src" path="Greedy"/>
+	<classpathentry kind="src" path="Data Structure"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
