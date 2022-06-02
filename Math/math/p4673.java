@@ -13,18 +13,24 @@ public class p4673 {
 	public static void main(String[] args) {
 		int[] number = new int[10001]; //1부터 저장
 		int[] number_self = new int[10001]; //1부터 저장
-
+		
+		//셀프 넘버가 아닌 수들
 		int no_self;
+		
+		//셀프넘버를 담은 수와 원래 비교할 수 배열 선엉
 		for(int i=1;i<number.length; i++) {
 			number[i] = i;
 			number_self[i] = i;
 		}
+		
+		//
 		for(int i=1; i<number.length;i++) {
 			no_self = d(number[i]);
 			if(no_self<=10000) {
 				number_self[no_self] = 0;
 			}
 		}
+		
 		for(int i=0; i<number_self.length;i++) {
 			if(number_self[i]!=0)
 				System.out.println(number_self[i]);
