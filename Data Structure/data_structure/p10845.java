@@ -16,6 +16,7 @@ public class p10845 {
 		  empty: 큐가 비어있으면 1, 아니면 0을 출력한다.
 		  front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.
 		  back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.*/
+		
 		int last=0;
 		for(int i=0 ;i<N; i++) {
 			st = new StringTokenizer(br.readLine());
