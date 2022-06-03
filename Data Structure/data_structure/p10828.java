@@ -1,6 +1,7 @@
 package data_structure;
 import java.util.*;
 import java.io.*;
+//Ω∫≈√
 public class p10828 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
