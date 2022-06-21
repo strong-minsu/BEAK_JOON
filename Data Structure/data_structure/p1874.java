@@ -18,9 +18,9 @@ public class p1874 {
 			stack.push(n);
 		}
 		
+		// 위에서 바로 스택에 넣지 않은 이유 스택이 LIFO성질을 가지기 때문이다.
 		for(int i = 0; i < N; i++) {
 			array.push(stack.pop());
-			//stack.pop();
 		}
 		
 		for(int i = 1; i <= N; i++) {
