@@ -25,13 +25,7 @@ public class p7568 {
 				if(P[i][0] < P[j][0] && P[i][1] < P[j][1]) {
 					count++;
 				}
-				/*else if(P[i][0] < P[j][0] && P[i][1] == P[j][1]) {
-					count++;
-				}
-				
-				else if(P[i][0] == P[j][0] && P[i][1] < P[j][1]) {
-					count++;
-				}*/
+
 			}
 			
 			P[i][2] = count;
