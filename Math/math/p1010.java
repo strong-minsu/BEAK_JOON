@@ -1,7 +1,7 @@
 package math;
 import java.util.*;
 import java.io.*;
-//´Ù¸®³õ±â
+//ë‹¤ë¦¬ë†“ê¸°
 public class p1010 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,7 +16,7 @@ public class p1010 {
 			long M = Long.parseLong(st.nextToken());
 			
 			long result=1;
-			//NCM Á¶ÇÕÀ» ÀÌ¿ëÇÔ
+			//NCM ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½
 			for(int j=0; j<N; j++) {
 				result *= (M-j);
 				result /= (j+1);
