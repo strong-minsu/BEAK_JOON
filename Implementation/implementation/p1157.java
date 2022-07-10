@@ -27,7 +27,7 @@ public class p1157 {
 		}
 		
 		Integer[] tmp = Arrays.stream(alpha_n2).boxed().toArray(Integer[]::new);
-	    Arrays.sort(tmp, Comparator.reverseOrder()); // ³»¸²Â÷¼ø
+	    Arrays.sort(tmp, Comparator.reverseOrder()); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 		int x = 0;
 		if(tmp[0].equals(tmp[1]))
