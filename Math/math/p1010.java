@@ -16,7 +16,7 @@ public class p1010 {
 			long M = Long.parseLong(st.nextToken());
 			
 			long result=1;
-			//NCM ������ �̿���
+			//NCM 조합 사용
 			for(int j=0; j<N; j++) {
 				result *= (M-j);
 				result /= (j+1);
