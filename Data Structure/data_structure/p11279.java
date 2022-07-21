@@ -1,0 +1,32 @@
+package data_structure;
+//최대 힙
+import java.util.*;
+import java.io.*;
+public class p11279 {
+	static int N;
+	static int x;
+//	Collections.reverseOrder() -> 최대힙으로
+//	기본적으로 자바에서 제공하는 우선순위 큐 (priority queue)는 최소 힙임!
+	static PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		N =Integer.parseInt(br.readLine());
+		for(int i=0; i<N; i++) {
+			x = Integer.parseInt(br.readLine());
+			if(x == 0) {
+				if(queue.size() == 0) {
+					sb.append(0).append("\n");
+				}
+				else {
+					sb.append(queue.poll()).append("\n");
+				}
+			}
+			else {
+				queue.add(x);
+			}
+		}
+		System.out.print(sb);
+	}
+
+}
