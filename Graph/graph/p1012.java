@@ -46,12 +46,14 @@ public class p1012 {
 			cabbage = new int[N][M];
 			visit = new boolean[N][M];
 			
+			//지렁이 넣기..
 			for(int i=0; i<K; i++) {
 				stTokenizer = new StringTokenizer(bfReader.readLine());
 				int x1 = Integer.parseInt(stTokenizer.nextToken());
 				int y1 = Integer.parseInt(stTokenizer.nextToken());
 				cabbage[y1][x1] = 1;
 			}
+			
 			for (int x = 0; x < M; x++) {
 				for (int y = 0; y < N; y++) {
 					if (cabbage[y][x] == 1 && !visit[y][x]) {
